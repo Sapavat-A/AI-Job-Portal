@@ -1,0 +1,43 @@
+# Virtual Environment
+myenv/
+venv/
+env/
+.venv/
+*/myenv/  # If myenv is inside flask_server for some reason
+*/venv/
+*/env/
+*/.venv/
+
+# Environment variables file
+.env
+*.env
+flask_server/.env # If you placed it there specifically
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.DS_Store
+
+# Operating System files
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Downloaded model files (if you download them into the project and they are large)
+# Example:
+# ML_prediction/*.sbert # If you store large SBERT models locally
+# But your .joblib files for TF-IDF are usually fine to commit unless huge
+
+# Node modules (if you had a frontend project in the same root, not your current case)
+# node_modules/
+
+# Build artifacts
+# build/
+# dist/
