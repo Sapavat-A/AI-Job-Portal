@@ -10,3 +10,4 @@ numpy==2.2.5
 scikit-learn==1.6.1
 pydantic==2.11.4
 Authlib==1.5.2
+PyPDF2==3.0.1

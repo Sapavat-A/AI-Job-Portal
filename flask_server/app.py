@@ -1,8 +1,4 @@
-# flask_server/app.py
-
-from flask_server import create_app
-
-app = create_app()
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+class Config:
+    SECRET_KEY = "secret"
+    SQLALCHEMY_DATABASE_URI = "sqlite:///app.db"
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
